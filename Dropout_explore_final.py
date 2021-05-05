@@ -2,7 +2,7 @@
 """
 Created on Fri Feb 28 15:13:30 2020
 
-@author: J052311
+@author: Demet
 """
 
 
@@ -59,7 +59,7 @@ from sklearn.metrics import auc
 ###################################################################
 
 #Read data in a panda DATAframe + Format and explore data
-df=pd.read_stata('C:\\Users\\J052311\Documents\\Drop_for_tree_bootstrapped.dta')
+df=pd.read_stata('C:\\Users\\Documents\\Drop_for_tree_bootstrapped.dta')
 feature_cols_new=['term','f_score', 'pmt_type_string']
 Xnew= df[feature_cols_new] # a data frame 
 Y=df['dropout_acct']
